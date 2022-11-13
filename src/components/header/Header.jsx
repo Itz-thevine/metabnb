@@ -65,7 +65,7 @@ const Header = () => {
             </svg>
         </div>
         <div className='flex items-center lg:flex-row-reverse'>
-            <div className='bg-bgColorOne text-xs py-2 px-4 text-white rounded lg:mr-16 lg:text-base' onClick={()=>{setDisplayMeta(!displayMeta)}}>Connect wallet</div>
+            <div className='bg-bgColorOne text-xs py-2 px-4 text-white rounded lg:mr-16 lg:text-base' role='button' onClick={()=>{setDisplayMeta(!displayMeta)}}>Connect wallet</div>
         {
             mobile && (
             <div className='fixed lg:relative lg:bg-white lg:text-gray-800 lg:h-14 lg:flex lg:items-center lg:w-[560px] top-0 left-0 z-10 text-white bg-bgColorOne h-screen w-screen lg:z-0'>
