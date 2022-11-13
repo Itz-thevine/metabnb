@@ -3,7 +3,7 @@ import star from '../assets/Frame 59528.png'
 
 const Cards = ({pic}) => {
   return (
-    <div className='flex flex-col w-[300px] border-2 border-gray-400 rounded-xl p-3 mt-7 lg:mr-3'>
+    <div className='flex flex-col w-[300px] border-2 border-gray-400 rounded-xl p-3 mt-7'>
         <img src={pic} alt="Desert king" />
         <div className='w-[250px] flex justify-between py-2'>
             <p className='text-sm'>Desert King</p>

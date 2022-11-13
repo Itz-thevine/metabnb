@@ -70,6 +70,7 @@ const Index = () => {
             <div className='flex flex-col w-full items-center text-center lg:flex-1 lg:items-start'>
                 <p className='text-3xl lg:text-4xl'>Metabnb NFTs</p>
                 <p className='text-center mt-3 w-[80%] lg:text-left lg:text-1xl'>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
+                <div className='bg-white text-xs py-2 my-3 px-4 text-bgColorOne rounded lg:mr-16 lg:text-base' role='button'>Learn more</div>
             </div>
             <div className='flex justify-center mt-7 flex-1 mb-7'>
                 <img src={aboutImg} alt="heroImage" className='w-[75%]' />
